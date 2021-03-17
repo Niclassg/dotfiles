@@ -4,4 +4,4 @@ Synced configurations
 ## todo:
 Create symlink script
 
-ln -s ~/dotfiles/.zshrc ~/.zshrc
+ln -s ~/repos/dotfiles/.zshrc ~/.zshrc
