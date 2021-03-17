@@ -34,5 +34,4 @@ alias cls="clear"
 alias reload=". ~/.zshrc && echo 'ZSH config reloaded from ~/.zshrc'"
 alias path='echo -e ${PATH//:/\\n}' # Print each PATH entry on a separate line
 alias cc="pwd | c"  # copy current directory
-alias vc="cd $(pbpaste)"  # change to copied current directory
 
