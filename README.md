@@ -1,0 +1,2 @@
+# dotfiles
+Synced configurations
