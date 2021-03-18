@@ -21,6 +21,8 @@ plugins=(git docker kubectl golang)
 source $ZSH/oh-my-zsh.sh
 source <(kubectl completion zsh)
 
+mkcd() { mkdir -p $1; cd $1 }
+
 
 ownDir(){
 	sudo chown -R $USER "$1"
@@ -32,3 +34,5 @@ alias code="code-insiders"
 alias cls="clear"
 alias reload=". ~/.zshrc && echo 'ZSH config reloaded from ~/.zshrc'"
 alias path='echo -e ${PATH//:/\\n}' # Print each PATH entry on a separate line
+alias hs='history | grep'
+
