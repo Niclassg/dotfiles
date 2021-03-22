@@ -36,4 +36,5 @@ alias reload=". ~/.zshrc && echo 'ZSH config reloaded from ~/.zshrc'"
 alias path='echo -e ${PATH//:/\\n}' # Print each PATH entry on a separate line
 alias hs='history | grep'
 alias sm="scrcpy"
-
+alias smrec="scrcpy --record" #add file name at end
+alias rec="scrcpy --no-display --record" #add file name at end
