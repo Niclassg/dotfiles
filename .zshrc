@@ -1,4 +1,4 @@
-export PATH="/home/"${USER}"/bin"
+export PATH="/Users/"${USER}"/bin"
 export PATH=$PATH:/usr/local/bin
 export PATH=$PATH:/usr/local/sbin
 export PATH=$PATH:/usr/sbin
@@ -7,7 +7,7 @@ export PATH=$PATH:/sbin
 export PATH=$PATH:/bin
 export PATH=$PATH:/usr/local/go/bin
 
-export ZSH="/home/"${USER}"/.oh-my-zsh"
+export ZSH="/Users/"${USER}"/.oh-my-zsh"
 
 export PATH=$PATH:/mnt/c/Users/nicla/AppData/Local/Programs/Microsoft\ VS\ Code\ Insiders/bin
 export PATH=$PATH:/mnt/c/Program\ Files/Docker/Docker/resources/bin
@@ -29,7 +29,6 @@ ownDir(){
 }
 
 
-alias zshconfig="nano ~/.zshrc"
 alias code="code-insiders"
 alias cls="clear"
 alias reload=". ~/.zshrc && echo 'ZSH config reloaded from ~/.zshrc'"
